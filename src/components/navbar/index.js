@@ -5,10 +5,12 @@ import ThemeToggle from "../../assets/icons/dark_toggle.svg"
 import ProfileImg from "../../assets/images/profile_image.png"
 import { Searchbar } from './searchbar';
 import "../../stylesheets/navbar.css"
+import { OffcanvasSidebar } from '../offcanvasSidebar';
 
 export const Navbar = () => {
   return (
     <div className='d-flex nav-outer-div justify-content-center'>
+      <OffcanvasSidebar/>
       <Searchbar />
 
       <div className='nav-btns bordered-nav-btn'>

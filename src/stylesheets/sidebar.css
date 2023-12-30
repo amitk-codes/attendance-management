@@ -62,3 +62,10 @@
   margin: auto;
   width: 150px;
 }
+
+
+@media (max-width: 1290px){
+  /* .sidebar-outer-div{
+    display: none;
+  } */
+}
