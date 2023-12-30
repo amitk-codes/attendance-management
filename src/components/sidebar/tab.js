@@ -7,7 +7,7 @@ export const SidebarTab = ({name, icon}) => {
         <img src={icon} alt="home icon" />
       </div>
 
-      <div>
+      <div className=' text-black'>
         {name}
       </div>
     </div>

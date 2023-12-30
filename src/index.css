@@ -6,9 +6,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #171717;
+  color: #dbdbdf;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.active-text{
+  color: #f3a84d;
+}
+
+.faded-text{
+  font-size: 12px;
+  color: rgb(203, 196, 196);
 }
