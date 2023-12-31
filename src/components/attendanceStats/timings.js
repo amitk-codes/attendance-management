@@ -14,7 +14,7 @@ export const Timings = () => {
   return (
     <div className='d-flex flex-column justify-content-between'>
       <div className=' text-center'>Timings</div>
-      <div className=' d-flex' style={{gap: "10px"}}>
+      <div className=' d-flex timings-wrapper' style={{gap: "10px"}}>
         {timingsArr.map(({ value, color }) => {
           return (
             <div className={`${color} timings-days`}>{value}</div>

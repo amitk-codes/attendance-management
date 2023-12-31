@@ -5,7 +5,7 @@ import PieIcon from "../../assets/icons/pie_icon.png"
 
 export const Status = () => {
   return (
-    <div className='status-outer-div me-5 d-flex flex-column justify-content-between'>
+    <div className='status-outer-div d-flex flex-column justify-content-between'>
       <div className='status-heading'>Attendance Status</div>
       <div className=' d-flex'>
         <div>Last Week</div>

@@ -12,7 +12,7 @@ function App() {
 
       </div>
       <div className=" w-100">
-        <Navbar />
+        {/* <Navbar /> */}
         <Body/>
       </div>
     </div>

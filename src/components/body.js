@@ -6,7 +6,7 @@ import { LogsRequest } from './LogsRequest';
 
 export const Body = () => {
   return(
-    <div className='py-5 px-4'>
+    <div className='py-5 px-3 px-sm-4'>
       <NavigationAddress/>
       <AttendanceStats/>
       <LogsRequest/>

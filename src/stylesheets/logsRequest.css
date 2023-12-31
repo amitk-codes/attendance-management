@@ -49,4 +49,44 @@ tbody img{
 
 table{
   text-align: center;
+  min-width: 900px;
+  /* overflow: auto; */
+}
+
+.table-wrapper{
+  overflow: auto;
+  border: 2px solid grey;
+}
+
+
+
+.table-wrapper::-webkit-scrollbar{
+  height: 5px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb{
+  background-color: #f3a84d;
+  border-radius: 6px
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+  background-color: #605f68;
+  border-radius: 6px;
+}
+
+td div{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap: 10px;
+}
+
+.tab-selector .btn {
+  /* min-width: 20px; */
+  height: auto;
+  min-height: 40px;
+  /* min-height:max-content ; */
+  margin: 20px 0;
+  
+
 }

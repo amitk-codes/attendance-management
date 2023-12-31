@@ -9,10 +9,11 @@ import SmileIcon from "../../assets/icons/smile_icon.svg"
 import DoneIcon from "../../assets/icons/done_icon.svg"
 import SlowIcon from "../../assets/icons/slow_icon.svg"
 import PendingIcon from "../../assets/icons/hourglass_icon.svg"
+import { Badge } from '../../utils/badge';
 
 export const Table = () => {
   return (
-    <table className="table">
+    <table className="table ">
       <thead>
         <tr>
           <th scope="col" className='align-middle'>December, 2023</th>
@@ -69,14 +70,14 @@ export const Table = () => {
 
 
 
-        <tr>
+        <tr style={{backgroundColor: "#3e3d41"}}>
           <td>
             <div>
               <div>Dec 03, Sun</div>
-              <div></div>
+              <Badge bgColor={"#f2a74d"} content={"W-OFF"} />
             </div>
           </td>
-          <td colSpan={"6"}>Full day weekly-off</td>
+          <td style={{paddingRight: "147px"}} colSpan={"6"}>Full day weekly-off</td>
         </tr>
 
 
@@ -148,14 +149,16 @@ export const Table = () => {
           </td>
         </tr>
 
-        <tr>
+        <tr style={{backgroundColor: "#5f484e"}}>
           <td>
             <div>
               <div>Nov 30, Thu</div>
+              <Badge bgColor={"#bd43ea"} content={"Leave"} />
+
             </div>
           </td>
 
-          <td colSpan={"6"}>
+          <td style={{paddingRight: "147px"}} colSpan={"6"}>
             Sick Leave
 
           </td>

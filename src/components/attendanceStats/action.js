@@ -2,10 +2,10 @@ import React from 'react';
 
 export const Action = () => {
   return (
-    <div className='ms-5 d-flex flex-column justify-content-between'>
+    <div className='d-flex flex-column justify-content-between'>
       <div className=' text-center'>Action</div>
 
-      <div className=' d-flex'>
+      <div className=' d-flex action-wrapper'>
         <div className='action-main-content'>
           <div className='time-in-action'>04:04:39 PM</div>
           <div className='date-in-action text-medium'>Wed 06, Dec 2023</div>

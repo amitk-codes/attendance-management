@@ -6,14 +6,17 @@ import ProfileImg from "../../assets/images/profile_image.png"
 import { Searchbar } from './searchbar';
 import "../../stylesheets/navbar.css"
 import { OffcanvasSidebar } from '../offcanvasSidebar';
+import { SettingsDropdown } from './settingsDropdown';
 
 export const Navbar = () => {
   return (
-    <div className='d-flex nav-outer-div justify-content-center'>
+    <div className='nav-outer-div'>
       <OffcanvasSidebar/>
       <Searchbar />
 
-      <div className='nav-btns bordered-nav-btn'>
+      <SettingsDropdown/>
+
+      {/* <div className='nav-btns bordered-nav-btn'>
         <img src={NotificationIcon} />
       </div>
 
@@ -28,7 +31,7 @@ export const Navbar = () => {
 
       <div className='nav-btns'>
         <img src={ProfileImg} className='img-fluid' />
-      </div>
+      </div> */}
 
 
     </div>
