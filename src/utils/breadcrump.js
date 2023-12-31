@@ -1,9 +1,5 @@
-import React from 'react';
+import React from 'react'
 
 export const Breadcrump = () => {
-  return(
-    <div style={{color: "#dfdee0"}}>
-    /
-    </div>
-  )
+  return <div style={{ color: '#dfdee0' }}>/</div>
 }
