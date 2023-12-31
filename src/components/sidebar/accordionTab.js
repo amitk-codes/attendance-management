@@ -3,7 +3,7 @@ import GraphIcon from "../../assets/icons/graph_icon.svg"
 import WhiteGraphIcon from "../../assets/icons/white_graph_icon.svg"
 import { useState } from 'react';
 
-function BasicExample() {
+const AccordianTab = () => {
   const [open, setOpen] = useState(true)
 
   return (
@@ -31,4 +31,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default AccordianTab;
