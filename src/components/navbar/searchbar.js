@@ -6,8 +6,6 @@ export const Searchbar = () => {
     <div className='nav-searchbar-div'>
       <input placeholder='Search' />
       <img className='nav-searchbar-icon' src={SearchIcon} />
-      
-
     </div>
   )
 }

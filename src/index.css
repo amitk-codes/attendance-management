@@ -5,11 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
   background: rgb(84, 83, 85);
   background: radial-gradient(circle, rgba(84, 83, 85, 1) 0%, rgba(23, 23, 23, 1) 32%);
   background-repeat: no-repeat;
   color: #dbdbdf;
-  min-height: 100svh;
+  height: 100svh;
   overflow: hidden;
 }
 

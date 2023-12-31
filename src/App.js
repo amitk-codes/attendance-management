@@ -11,8 +11,8 @@ function App() {
       <Sidebar/>
 
       </div>
-      <div className="w-100" style={{height: "100svh", overflow: "auto"}}>
-        {/* <Navbar /> */}
+      <div className="w-100" style={{height: "100svh", overflow: "auto", paddingBottom: "50px"}}>
+        <Navbar />
         <Body/>
       </div>
     </div>

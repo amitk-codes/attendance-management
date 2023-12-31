@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import NotificationIcon from "../../assets/icons/notification_icon.svg"
 import MessageIcon from "../../assets/icons/message_icon.svg"
 import ThemeToggle from "../../assets/icons/dark_toggle.svg"
@@ -16,7 +16,7 @@ export const Navbar = () => {
 
       <SettingsDropdown/>
 
-      {/* <div className='nav-btns bordered-nav-btn'>
+      <div className='nav-btns bordered-nav-btn'>
         <img src={NotificationIcon} />
       </div>
 
@@ -31,7 +31,7 @@ export const Navbar = () => {
 
       <div className='nav-btns'>
         <img src={ProfileImg} className='img-fluid' />
-      </div> */}
+      </div>
 
 
     </div>

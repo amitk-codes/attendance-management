@@ -9,8 +9,8 @@ import ProfileImg from "../../assets/images/profile_image.png"
 
 export const SettingsDropdown = () => {
   return (
-    <div>
-      <Dropdown className="settings-dropdown">
+    
+      <Dropdown className="settings-dropdown d-none">
         <Dropdown.Toggle className='bordered-nav-btn' id="dropdown-custom">
           <img
             src={SettingsIcon}
@@ -55,6 +55,5 @@ export const SettingsDropdown = () => {
       </div> */}
         </Dropdown.Menu>
       </Dropdown>
-    </div>
   )
 }
