@@ -1,11 +1,11 @@
-.nav-outer-div{
+.nav-outer-div {
   margin-top: 15px;
   gap: 65px;
   position: relative;
 }
 
 
-.bordered-nav-btn{
+.bordered-nav-btn {
   border-radius: 8px;
   background-color: #3c3b43;
 }
@@ -14,7 +14,7 @@
 
 
 .nav-btns,
-.nav-btns img{
+.nav-btns img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,14 +22,14 @@
   height: 45px;
 }
 
-.bordered-nav-btn img{
+.bordered-nav-btn img {
   width: 30px;
   height: 30px;
 }
 
 
 
-.nav-searchbar-div{
+.nav-searchbar-div {
   position: relative;
   display: flex;
   width: 400px;
@@ -37,7 +37,7 @@
   /* border: 5px solid red; */
 }
 
-.nav-searchbar-div input{
+.nav-searchbar-div input {
   padding-left: 20px;
   background-color: #3c3b43;
   width: 100%;
@@ -49,7 +49,7 @@
 }
 
 
-.nav-searchbar-icon{
+.nav-searchbar-icon {
   position: absolute;
   /* border: 5px solid red;
   left: 0; */
@@ -62,7 +62,7 @@
 }
 
 
-.offcanvas-sidebar img{
+.offcanvas-sidebar img {
   position: absolute;
   left: 20px;
   width: 45px;
@@ -70,4 +70,20 @@
   border-radius: 50%;
   padding: 5px;
   box-shadow: 0 0 10px white;
+}
+
+.offcanvas-sidebar-wrapper {
+  box-shadow: 0 0 10px rgb(182, 168, 168);
+  height: 100svh;
+  width: 215px;
+  padding-right: 20px;
+  margin-left: 2px;
+}
+
+@media (min-width: 1290px) {
+  .offcanvas-sidebar {
+    display: none;
+
+  }
+
 }

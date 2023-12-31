@@ -12,7 +12,10 @@ export const OffcanvasSidebar = () => {
       
 
       <Offcanvas style={{backgroundColor: "#171717"}}  className={" w-auto"} show={open} onHide={()=>setOpen(false)}>
+        <div className='offcanvas-sidebar-wrapper'>
         <Sidebar/>
+
+        </div>
       </Offcanvas>
     </div>
   )

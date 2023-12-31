@@ -1,9 +1,18 @@
-.sidebar-outer-div {
-  width: 215px;
-  padding-right: 20px;
+.sidebar-wrapper{
   box-shadow: 0 0 10px rgb(182, 168, 168);
   height: 100svh;
+  width: 215px;
+  padding-right: 20px;
   margin-left: 2px;
+}
+
+
+.sidebar-outer-div {
+  /* box-shadow: 0 0 10px rgb(182, 168, 168); */
+  /* height: 100svh;
+  width: 215px;
+  padding-right: 20px;
+  margin-left: 2px; */
 }
 
 .sidebar-tab {
@@ -65,7 +74,7 @@
 
 
 @media (max-width: 1290px){
-  /* .sidebar-outer-div{
+  .sidebar-wrapper{
     display: none;
-  } */
+  }
 }
