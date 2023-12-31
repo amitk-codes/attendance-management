@@ -8,7 +8,7 @@ export const OffcanvasSidebar = () => {
   return(
     <div className='offcanvas-sidebar'>
 
-      <img onClick={()=>setOpen(true)} src={MenuIcon} alt='menu icon'/>
+      <img className='cursor-pointer' onClick={()=>setOpen(true)} src={MenuIcon} alt='menu icon'/>
       
 
       <Offcanvas style={{backgroundColor: "#171717"}}  className={" w-auto"} show={open} onHide={()=>setOpen(false)}>
