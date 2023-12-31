@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   color: #dbdbdf;
   min-height: 100svh;
+  overflow: hidden;
 }
 
 code {
