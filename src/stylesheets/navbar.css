@@ -1,10 +1,15 @@
-.nav-outer-div{
+.nav-outer-div {
   margin-top: 15px;
-  gap: 65px;
+  display: flex;
+  justify-content:space-evenly ;
+  /* gap: 65px; */
+  /* position: relative; */
+  padding: 0 10px;
+  gap: 20px;
 }
 
 
-.bordered-nav-btn{
+.bordered-nav-btn {
   border-radius: 8px;
   background-color: #3c3b43;
 }
@@ -13,22 +18,23 @@
 
 
 .nav-btns,
-.nav-btns img{
+.nav-btns img {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 45px;
   height: 45px;
+  cursor: pointer;
 }
 
-.bordered-nav-btn img{
+.bordered-nav-btn img {
   width: 30px;
   height: 30px;
 }
 
 
 
-.nav-searchbar-div{
+.nav-searchbar-div {
   position: relative;
   display: flex;
   width: 400px;
@@ -36,8 +42,9 @@
   /* border: 5px solid red; */
 }
 
-.nav-searchbar-div input{
+.nav-searchbar-div input {
   padding-left: 20px;
+  padding-right: 50px;
   background-color: #3c3b43;
   width: 100%;
   height: 100%;
@@ -48,7 +55,7 @@
 }
 
 
-.nav-searchbar-icon{
+.nav-searchbar-icon {
   position: absolute;
   /* border: 5px solid red;
   left: 0; */
@@ -58,4 +65,93 @@
   height: 30px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+
+.offcanvas-sidebar img {
+  /* position: absolute;
+  left: 20px; */
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 0 10px white;
+}
+
+.offcanvas-sidebar-wrapper {
+  box-shadow: 0 0 10px rgb(182, 168, 168);
+  height: 100svh;
+  width: 215px;
+  padding-right: 20px;
+  margin-left: 2px;
+}
+
+.bordered-nav-btn,
+.nav-searchbar-div input{
+  box-shadow: 0 0 1.9px white;
+}
+
+.settings-dropdown .dropdown-toggle{
+  background-color: #3c3b43;
+}
+
+.settings-dropdown .dropdown-toggle::after{
+  vertical-align: baseline !important;
+}
+
+.settings-dropdown .dropdown-toggle{
+  border: none;
+  outline: none;
+}
+
+.settings-dropdown .dropdown-toggle:hover,
+.settings-dropdown .dropdown-toggle:focus{
+  border: none;
+  background-color: #3c3b43;
+
+}
+
+
+.settings-dropdown .dropdown-menu{
+  background-color: #3c3b43;
+}
+
+.settings-dropdown .dropdown-item{
+  display: flex;
+  color: #f3f3f3;
+  gap: 10px;
+  align-items: center;
+}
+
+.settings-dropdown .dropdown-item:hover{
+  background-color: #686672;
+}
+
+
+.settings-dropdown img{
+  width: 30px;
+  height: 30px;
+}
+
+@media (min-width: 1290px) {
+  .offcanvas-sidebar {
+    display: none;
+
+  }
+
+  .nav-outer-div{
+    gap: 65px;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 980px){
+  .nav-btns{
+    display: none;
+  }
+
+  .settings-dropdown{
+    display: block !important;
+  }
 }

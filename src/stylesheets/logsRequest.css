@@ -1,0 +1,92 @@
+.btn-outline-primary {
+  --bs-btn-border-color: #605f68
+}
+
+.time-selector .btn {
+  width: 80px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f3f3f3 !important;
+  background-color: #24232b;
+}
+
+.time-selector .btn:hover {
+  background-color: #24232b;
+}
+
+.time-selector .btn-check:checked+.btn {
+  background-color: #f3a84d;
+  border-color: #605f68;
+}
+
+.radio2 .btn {
+  width: auto;
+}
+
+table {
+  /* background-image: linear-gradient(to bottom, #26252d, #2b2a32, #313038, #36353d, #3c3b43); */
+  /* background-color: red; */
+  --bs-table-bg: transparent !important;
+  --bs-table-color: #dbdbdf !important;
+}
+
+table thead{
+  vertical-align: middle !important;
+  height: 50px !important;
+  background-image: linear-gradient(to bottom, #26252d, #2b2a32, #313038, #36353d, #3c3b43);
+}
+
+table tbody{
+  background-color: #24232b !important;
+}
+
+
+tbody img{
+  height: 30px;
+}
+
+table{
+  text-align: center;
+  min-width: 900px;
+  /* overflow: auto; */
+}
+
+.table-wrapper{
+  overflow: auto;
+  border: 2px solid grey;
+}
+
+
+
+.table-wrapper::-webkit-scrollbar{
+  height: 5px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb{
+  background-color: #f3a84d;
+  border-radius: 6px
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+  background-color: #605f68;
+  border-radius: 6px;
+}
+
+td div{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap: 10px;
+}
+
+.tab-selector .btn {
+  /* min-width: 20px; */
+  height: auto;
+  min-height: 40px;
+  /* min-height:max-content ; */
+  margin: 20px 0;
+  
+
+}
